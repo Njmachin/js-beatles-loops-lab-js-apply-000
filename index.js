@@ -1,5 +1,5 @@
 // add solution here
-function theBealesPlay(arrayMusicians, arrayInstruments) {
+function theBeatlesPlay(arrayMusicians, arrayInstruments) {
   arr = [];
  
   for(let i = 0; i < arrayMusicians.length; i++) {

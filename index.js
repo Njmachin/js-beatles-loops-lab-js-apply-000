@@ -20,10 +20,16 @@ function johnLennonFacts(arrayFacts) {
 
 function iLoveTheBeatles(aNum) {
   arr = []; 
-{ do {
+  if(aNum < 15) {
+      do {
   num += 1;
   arr.push("I Love the Beatles!")
-} while (num < 15); return arr
-}
+} while (num < 15);
+  } else{
+      do {
+  num -= 1;
+  arr.push("I Love the Beatles!")
+} while (num > 15);
+  }
   return arr;
 }

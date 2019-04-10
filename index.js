@@ -24,7 +24,7 @@ function iLoveTheBeatles(aNum) {
   let arr = [];
   if(aNum < 15) {
       do {
-  num += 1;
+  aNum += 1;
   arr.push("I Love the Beatles!")
 } while (num < 15);
   } else{

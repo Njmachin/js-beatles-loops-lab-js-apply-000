@@ -20,10 +20,10 @@ function johnLennonFacts(arrayFacts) {
 
 function iLoveTheBeatles(aNum) {
   arr = []; 
-{  do {
+{ do {
   num += 1;
   arr.push("I Love the Beatles!")
 } while (num < 15); return arr
-
-
+}
+  return arr;
 }

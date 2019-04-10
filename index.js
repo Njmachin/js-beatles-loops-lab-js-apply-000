@@ -11,9 +11,11 @@ function theBeatlesPlay(arrayMusicians, arrayInstruments) {
 
 function johnLennonFacts(arrayFacts) {
   let arr = [];
+  let i = 0;
   while(arr.length !== arrayFacts.length) {
     let str = arrayFacts[i] + '!!!';
     arr.push(str);
+    i += 1;
   }
   return arr;
 }

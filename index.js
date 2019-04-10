@@ -26,12 +26,12 @@ function iLoveTheBeatles(aNum) {
       do {
   aNum += 1;
   arr.push("I Love the Beatles!")
-} while (num < 15);
+} while (aNum < 15);
   } else{
       do {
-  num -= 1;
+  aNum -= 1;
   arr.push("I Love the Beatles!")
-} while (num > 15);
+} while (aNum > 15);
   }
   return arr;
 }
